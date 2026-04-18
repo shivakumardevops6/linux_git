@@ -1,4 +1,11 @@
-#!/bin/bash
+pipeline {
+    agent any
 
-echo "hi"
-date
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build triggered successfully!'
+            }
+        }
+    }
+}
