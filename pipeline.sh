@@ -3,3 +3,6 @@
 ls -lrt
 date
 time
+pwd
+free
+
