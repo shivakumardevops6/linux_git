@@ -15,7 +15,11 @@ pipeline {
                 pwd
 
                 echo "List files:"
-                ls -l
+                ls -lrth
+
+				echo "list history"
+				history
+				
                 '''
 		echo 'Build triggered successfully!'
             }
